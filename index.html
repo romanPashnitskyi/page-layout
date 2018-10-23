@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="src/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="circle">
+      <i class="fa fa-circle" style="font-size: 11px; color: #e76847;"></i>
+      <i class="fa fa-circle" style="font-size: 11px; color: #fabf00;"></i>
+      <i class="fa fa-circle" style="font-size: 11px; color: #52bea6;"></i>
+    </div>
+    <img src="src/images/book.png" class="book-image" />
+    <div class="text-header">MyBookApp</div>
+    <div class="help-center">Help Center</div>
+    <div class="circle-black">
+      <i class="fa fa-circle" style="font-size: 4px; color: #000;"></i>
+    </div>
+    <div class="our-suport">Our Suport</div>
+    <div class="user-online-bg">
+      <img src="src/images/avatar.png" class="avatar-image" />
+      <div class="user-name">John Doe</div>
+      <img src="src/images/down.png" class="down-image" />
+    </div>
+  </header>
+  <div class="app">
+    <aside>
+      <div class="block-1">
+        <button class="add-btn">
+          <img src="src/images/plus.png" class="plus-image"/>ADD A BOOK
+        </button>
+      </div>
+      <div class="line-1"></div>
+      <div class="divider"></div>
+      <div class="line-2"></div>
+      <div class="simple">
+        <ul>
+          <li class="text-simple" style="list-style-image: url('src/images/book.png');">Now Reading</li>
+        </ul>
+      </div>
+      <div class="special">
+        <ul>
+          <li class="text-special" style="list-style-image: url('src/images/browse.png');">Browse</li>
+        </ul>
+      </div>
+      <div class="simple">
+        <ul>
+          <li class="text-simple" style="list-style-image: url('src/images/buy.png');">Buy Books</li>
+        </ul>
+      </div>
+      <div class="simple">
+        <ul>
+          <li class="text-simple" style="list-style-image: url('src/images/grey-star.png');">Favourite Books</li>
+        </ul>
+      </div>
+      <div class="simple">
+        <ul>
+          <li class="text-simple" style="list-style-image: url('src/images/wishlist.png');">Wishlist</li>
+        </ul>
+      </div>
+      <div class="simple">
+        <ul>
+          <li class="text-simple" style="list-style-image: url('src/images/history.png');">History</li>
+        </ul>
+      </div>
+      <div class="line-1"></div>
+      <div class="divider"></div>
+      <div class="line-2"></div>
+      <div class="block-3">
+        <ul>
+          <li style="color: #f00;"><span>Must Read Titles</span></li>
+        </ul>
+      </div>
+      <div class="block-3">
+        <ul>
+          <li style="color: #ff0;"><span>Best Of List</span></li>
+        </ul>
+      </div>
+      <div class="block-3">
+        <ul>
+          <li style="color: #00bfdd;"><span>Classic Novels</span></li>
+        </ul>
+      </div>
+      <div class="block-3">
+        <ul>
+          <li style="color: #7874cf;"><span>Non Fiction</span></li>
+        </ul>
+      </div>
+      <div class="line-1"></div>
+      <div class="divider"></div>
+      <div class="line-2"></div>
+      <div class="block-4">
+        <ul>
+          <li class="text-block-4-simple" style="list-style-image: url('src/images/history.png');">
+            You added <span class="text-block-4-special">Fight Club</span> by <span class="text-block-4-special">Chuck Palahniuk</span> to your <span class="text-block-4-special">Must Read Titles</span>.
+          </li>
+          <span class="space-around">24 minutes ago</span>
+          <li class="text-block-4-simple" style="list-style-image: url('src/images/history.png');">
+            You added <span class="text-block-4-special">The Trial</span> by <span class="text-block-4-special">Franz Kafka</span> to your <span class="text-block-4-special">Must Read Titles</span>.
+          </li>
+          <span class="space-around">48 minutes ago</span>
+        </ul>
+      </div>
+    </aside>
+    <main>
+      <article>Browse Available Books</article>
+      <div class="line-main"></div>
+      <div class="line-main-2"></div>
+      <div class="filter">
+        <ul class="filter-text">
+          <p class="filter-special">All Books</p>
+          <p class="filter-simple">Most Recent</p>
+          <p class="filter-simple">Most Popular</p>
+          <p class="filter-simple">Free Books</p>
+        </ul>
+        <ul>
+          <input placeholder="Enter Keywords">
+        </ul>
+      </div>
+      <div class="line-main"></div>
+      <div class="container">
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-1.png">
+          <p class="title-book">Jewels of Nizam</p>
+          <p class="by-book">by Geeta Devi</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-2.png">
+          <p class="title-book">Cakes & Bakes</p>
+          <p class="by-book">by Sanjeev Kapoor</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-3.png">
+          <p class="title-book">Jamie&apos;s Kitchen</p>
+          <p class="by-book">by Jamie Oliver</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star-half-alt checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-4.png">
+          <p class="title-book">Inexpensive Family Meals</p>
+          <p class="by-book">by Simon Holst</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="far fa-star checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-5.png">
+          <p class="title-book">Paleo Slow Cooking</p>
+          <p class="by-book">by Chrissy Gower</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star-half-alt checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-6.png">
+          <p class="title-book">Cook Like an Italian</p>
+          <p class="by-book">by Tobie Puttock</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="far fa-star checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-7.png">
+          <p class="title-book">Suneeta Vaswani</p>
+          <p class="by-book">by Geeta Devi</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-8.png">
+          <p class="title-book">Jamie Does</p>
+          <p class="by-book">by Jamie Oliver</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="far fa-star checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-9.png">
+          <p class="title-book">Jamie&apos;s italy</p>
+          <p class="by-book">by Jamie Oliver</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+          </div>
+        </div>
+        <div class="middle-cont">
+          <img class="cont-img" src="src/images/book-cover-10.png">
+          <p class="title-book">Vegetables Cookbook</p>
+          <p class="by-book">by Matthew Biggs</p>
+          <div class="rating">
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star checked"></i>
+            <i class="fas fa-star-half-alt checked"></i>
+            <i class="far fa-star checked"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <footer>
+    <div class="fo-block-1">
+      <img src="src/images/question.png">
+    </div>
+    <div class="fo-block-2">
+      <img src="src/images/gear.png">
+    </div>
+  </footer>
+</body>
+</html>
